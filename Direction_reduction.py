@@ -1,7 +1,7 @@
 def going_through(arr):
     answer = []
     x = 0
-    for i in range(len(arr)):
+    for i in range(len(arr)-1):
         if i == len(arr) - 1:
             answer.append(arr[i])
             break
